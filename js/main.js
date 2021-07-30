@@ -39,7 +39,13 @@ var studentiAttori = [
 
 console.log(studentiAttori);
   
-  
 
+// Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
+  
+for (i = 0; i < studentiAttori.length; i++) {
+    var studente_corrente = studentiAttori[i];
+        
+    console.log(studente_corrente.nome + ' ' + studente_corrente.cognome);
+}
 
 
